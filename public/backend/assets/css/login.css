@@ -1,0 +1,96 @@
+html body {
+    height: max-content !important;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+}
+
+.inside-block {
+    /* background: #07c5d3; */
+    /* padding: 10% 0; */
+    margin: 15% auto;
+    text-align: center;
+    width: 650px;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+}
+
+.logo-box {
+    width: 50%;
+    padding: 120px 0;
+    background: #fafafa;
+    border-radius: 70px 0 0 70px;
+    border: 5px solid #07c5d3;
+    border-right: none;
+}
+
+.form-login {
+    min-width: 100%;
+    -webkit-appearance: none;
+    -webkit-box-shadow:  rgb(0 0 0 / 40%) 6px 6px 11px;
+    box-shadow: rgb(0 0 0 / 40%) 6px 6px 11px;
+    border-radius: 70px;
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+}
+
+.login-box {
+    width: 50%;
+    padding: 0px 50px;
+    color: #ffffff;
+    background: #07c5d3;
+    border-radius: 0 70px 70px 0;
+    border: 5px solid #07c5d3;
+    border-left: none;
+}
+
+.box-input {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.login-box .title {
+    margin: 60px 0 40px;
+}
+
+.login-box form > * {
+    margin-top: 15px;
+}
+
+.login-box form > input {
+    border-radius: 30px;
+    border: none;
+    padding: 8px 20px;
+    box-shadow: 2px 1px 6px #c1c1c1 inset;
+}
+
+.login-box form input:focus {
+    outline: 0;
+}
+
+.login-box form .login-submit {
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 0;
+    background: #e2e2e2;
+    box-shadow: 0px 3px 6px #69bdcc;
+    color: #07c5d3;
+}
+
+.login-box form .login-submit:focus {
+    outline: 0;
+}

@@ -1,0 +1,221 @@
+.question-title-ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.add-vr-label {
+    width: 111%;
+    height: 92%
+}
+
+.add-question-title {
+    letter-spacing: 22px;
+    margin-top: 4%;
+}
+
+.question-answers {
+    min-width: -webkit-fill-available;
+}
+
+.question-correct-answer {
+    width: 162px;
+    padding: 5px;
+    border: 0;
+    border-radius: 30px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    color: white;
+    background: url(/backend/images/icons/多角形25.png) no-repeat #07c5d3;
+    background-position: 20px 7px;
+    margin-left: 18px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.add-2D-title {
+    letter-spacing: 22px;
+    padding-top: 8px;
+    min-width: -webkit-fill-available;
+}
+
+.info-2D-file {
+    margin-left: -392px
+}
+
+.preview-2D:not(.preview-error) {
+    min-width: 300px;
+    width: 300px;
+    height: 170px;
+    margin-left: 55px;
+    margin-top: 10px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+}
+
+.preview-video:not(.preview-video-error) {
+    height: 187px;
+    min-width: 200px;
+    width: 267px;
+    position: absolute;
+    margin-top: 89px;
+    margin-left: 79px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+}
+
+.title-2D {
+    width: 513px;
+    margin-top: 11px;
+    height: 131px;
+}
+
+.title-2D-label {
+    letter-spacing: 22px;
+    margin-top: 4%;
+}
+
+.status-2D {
+    background: transparent;
+    width: 162px;
+    padding: 5px;
+    border: 0;
+    border-radius: 30px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    color: #ff0404;
+    background: url(/backend/images/icons/多角形26.png) no-repeat #fff;
+    background-position: 20px 7px;
+    margin-left: 18px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-mass-add {
+    background-color: #07c5d3;
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    width: 200px;
+    cursor: pointer;
+    letter-spacing: 16px;
+}
+
+.btn-mass-add:hover{
+    background-color: #2daeb8;
+}
+
+
+.choose-subjects {
+    width: 381px;
+    float: left;
+}
+
+.choose-subjects-label {
+    letter-spacing: 22px;
+    width: 115px;
+}
+.choose-level-label {
+    letter-spacing: 14px;
+    width: 115px;
+}
+
+.choose-subjects-select {
+    width: 117px;
+    margin-left: -12px;
+}
+
+.choose-level {
+    width: 258px;
+    float: right;
+}
+
+.question-choose-level-subjects {
+    margin-bottom: 23%;
+    margin-top: -4px;
+    width: 659px;
+}
+
+.question-add-account_id {
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    color: grey;
+    font-size: larger;
+    margin-left: 15px;
+    width: 201px;
+    text-align: center;
+    pointer-events: none;
+    padding: 0% 4%;
+}
+
+.fullable {
+    cursor: pointer
+}
+
+.fullable:hover{
+    opacity: 0.9
+}
+
+.question-answer-error {
+    margin-left: 28%;
+    margin-top: -8%;
+    margin-bottom: -18%;
+    width: 113%;
+}
+
+.check-4-answer{
+    width: 20px;
+    margin-left: 20px;
+    accent-color: #07C5D3;
+}
+
+/* .check-4-answer:checked{
+    color: white;
+} */
+/* .fullscreen {
+    z-index: 9999;
+    position: fixed;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    background-color: #0FF;
+  } */
+
+  .table-videos tr:hover{
+    background-image: linear-gradient(to right, #d4eef2, transparent);
+  }
+
+  .media-trash-icon:hover{
+    cursor: pointer;
+  }
+
+  .mass-media-trash-red{
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(305deg) brightness(95%) contrast(80%);
+  }
+
+  .swal-overlay--show-modal{
+    z-index: 9999999999999;
+}
+
+.question-level {
+    width: 202px;
+    padding: 5px;
+    border: 0;
+    border-radius: 30px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url(/backend/images/icons/多角形26.png) no-repeat #fff;
+    background-position: 20px 7px;
+    color: gray;
+    margin-left: 18px;
+    height: 30px;
+    cursor: pointer;
+}

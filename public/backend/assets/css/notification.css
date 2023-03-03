@@ -1,0 +1,16 @@
+.message {
+    margin-left: 169px;
+    width: 330px;
+    outline: 0;
+    height: 140px;
+    resize: none;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 22px;
+}
+.label-title {
+    margin: 15px 0;
+}
+.btn-send-noti {
+    margin-top: 6rem;
+}

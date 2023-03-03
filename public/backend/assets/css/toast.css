@@ -1,0 +1,7 @@
+.custom-toast .toast-close{
+    color: black;
+    float: right;
+    right: 4%;
+    top: 27%;
+    position: fixed;
+}
